@@ -9,6 +9,7 @@ const App = () => {
       <Luthfieta />
       <Text>Nazalia</Text>
       <Photo />
+
       <TextInput style={{borderWidth: 1}} />
     </View>
   );
@@ -20,7 +21,7 @@ const Luthfieta = () => {
 
 const Photo = () => {
   return (
-    <Image 
+    <Image
       source={{uri: 'https://placeimg.com/640/480/arch'}}
       style={{width: 100, height: 100}}
     />
