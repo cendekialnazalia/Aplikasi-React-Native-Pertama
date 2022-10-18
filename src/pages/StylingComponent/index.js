@@ -1,6 +1,6 @@
 import React from 'react';
 import {Text, View, Image, StyleSheet} from 'react-native';
-import food from './rsc/food.jpg';
+import food from '../../assets/image/food.jpg';
 
 const style = StyleSheet.create({
   text: {
@@ -11,7 +11,7 @@ const style = StyleSheet.create({
     marginTop: 40,
   },
 });
-const StylingReactNativeComponent = () => {
+const StylingComponent = () => {
   return (
     <View>
       <Text style={style.text}>Styling Component</Text>
@@ -86,4 +86,4 @@ const StylingReactNativeComponent = () => {
   );
 };
 
-export default StylingReactNativeComponent;
+export default StylingComponent;
